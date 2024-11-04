@@ -1,0 +1,11 @@
+name: smoke
+dependencies:
+  - python=3.9  # Specify the Python version
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pathlib  # Include pathlib for handling file paths
+  - pre-commit
